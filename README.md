@@ -1,4 +1,4 @@
-# ROS 2 通用接口（`ros2/common_interfaces`）中文文档工程（完整逐文件版）
+# ROS 2 通用接口中文文档工程
 
 本工程完整翻译了 ROS 2 官方标准接口仓库 [`ros2/common_interfaces`](https://github.com/ros2/common_interfaces) 中的全部标准消息（**125 个**）与服务（**11 个**），并为每个接口补充对应的 **C++ 与 Python 示例代码**（包含对象声明与数据字段赋值）。
 
