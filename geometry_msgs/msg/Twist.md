@@ -31,12 +31,12 @@ Vector3 angular  # 三轴角速度 `(wx, wy, wz)` [rad/s]
 geometry_msgs::msg::Twist msg;
 
 // 2. 对消息字段进行赋值
-msg.linear.x = 1.0;
-msg.linear.y = 2.0;
-msg.linear.z = 0.5;
-msg.angular.x = 1.0;
-msg.angular.y = 2.0;
-msg.angular.z = 0.5;
+msg.linear.x = 0.1;
+msg.linear.y = 0.0;
+msg.linear.z = 0.0;
+msg.angular.x = 0.0;
+msg.angular.y = 0.0;
+msg.angular.z = 0.0;
 ```
 
 ### Python 示例
@@ -48,12 +48,12 @@ from geometry_msgs.msg import Twist
 msg = Twist()
 
 # 2. 对消息字段进行赋值
-msg.linear.x = 1.0
-msg.linear.y = 2.0
-msg.linear.z = 0.5
-msg.angular.x = 1.0
-msg.angular.y = 2.0
-msg.angular.z = 0.5
+msg.linear.x = 0.1
+msg.linear.y = 0.0
+msg.linear.z = 0.0
+msg.angular.x = 0.0
+msg.angular.y = 0.0
+msg.angular.z = 0.0
 ```
 
 ---
